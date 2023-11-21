@@ -183,8 +183,8 @@
     display: flex;
   }
   ul.row {
-    margin: 0;
-    padding: -1rem;
+    margin: -1rem;
+    padding: 0;
     list-style: none;
   }
   
