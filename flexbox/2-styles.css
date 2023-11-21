@@ -442,7 +442,7 @@
   .card-work:hover .card-title {
     opacity: 1;
   }
-  /* Section Latest news ============================= */
+  /* Section Latest news*/
   .section-latest-news{
     flex-direction: row-reverse;
   }
