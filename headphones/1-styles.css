@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+}
+.header{
+    background-image: url("/headphones/images/headphones_hero_1.jpg");
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
