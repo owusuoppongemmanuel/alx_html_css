@@ -370,6 +370,7 @@
   }
   /* Section Latest news ============================= */
   .section-latest-news .row, .section-body .row{
+    display: flex;
     flex-direction: row-reverse;
   }
   /*** 4. CARD ***/
