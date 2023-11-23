@@ -1,1 +1,1 @@
-This is a simple landing page
+This is a simple landing page created from scratch to give a fair idea about Flexbox

@@ -1,0 +1,1 @@
+This is a project from scratch on getting schooled. The purpose is to lear and practice html and css
