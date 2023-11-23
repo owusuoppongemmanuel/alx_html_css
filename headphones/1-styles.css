@@ -143,6 +143,7 @@ heading .red{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    box-shadow: 0 0 0 1px black;
 }
 .activities h4{
     color: var(--textcolor);
@@ -177,6 +178,7 @@ font-size: var(--font-size-small);
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: 0 0 0 1px black;
 }
 .results h4{
     margin-top: -10px;
@@ -225,4 +227,63 @@ footer p{
     color: var(--primarycolor);
     text-align: center;
     font-weight: var(--font-weight-regular);
+}
+/*Media Queries*/
+/*
+<600px, <768px, <992px, 1200px
+*/
+@media screen and (max-width=600px;) {
+    /*.navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }*/
+    /**Menu**/
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .activities{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 0 0 1px black;
+    }
+    .results .percentage{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+/*two column display*/
+@media screen and (max-width:768px;) {
+    .activities{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        box-shadow: 0 0 0 1px black;
+        flex:wrap 50%;
+    }
+    .results .percentage{
+        display: flex;
+        flex-direction: row;
+        flex: wrap 50%;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 0 0 0 1px black;
+    }
+}
+/*Menu on small screens*/
+@media screen and (max-width:768px;){
+    .menu{
+        display: block;
+        text-align: left;
+        position: absolute;
+        float: none;
+        top: 0;
+        right: 0;
+    }
 }
