@@ -93,3 +93,38 @@ heading .red{
     color: var(--primarycolor);
     box-shadow: 5px 2px var(--primarycolor);
 }
+/*Services*/
+.services{
+    background-color: var(--background-color);
+}
+.services .heading{
+    text-align: center;
+    color: var(--textcolor);
+}
+.services .heading h2{
+    font-size: var(--font-size-x-large);
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+}
+.services .heading p{
+    text-align: justify;
+}
+/*Activities*/
+.activities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.activities h4{
+    color: var(--textcolor);
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-medium);
+}
+.activities p{
+    color: var(--textcolor);
+    text-align: center;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-small);
+}
+
