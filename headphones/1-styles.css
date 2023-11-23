@@ -7,7 +7,21 @@
 }
 :root{
     --textcolor:black;
-    background-color: white;
+    --background-color: white;
+    --footerbackground:black;
+    --animation:cubic-bezier(0.17, 0.67, 0, 1.01);
+    --animationtime:3s;
+    --primarycolor:white;
+    --secondarycolor:orange;
+    --textcolor:color;
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+  
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
 }
 /***Header***/
 .header{
@@ -34,7 +48,8 @@ a{
 a:hover{
     font-size: 120%;
     color: orange;
-    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    transition: var(--animation);
+    transition: var(--animationtime);
 
 }
 a:active{
@@ -52,4 +67,29 @@ a:active{
 .logo:hover{
     cursor: grab;
     animation: rotation 2s infinite linear;
+}
+/*Header*/
+.heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.heading h1{
+    font-size: var(--font-size-xx-large);
+    color:var(--primarycolor);
+    font-weight:var(--font-weight-bold);
+}
+heading .red{
+    color:red;
+}
+.heading p{
+    font-size: var(--font-size-small);
+    color: var(--primarycolor);
+    font-weight: var(--font-weight-regular);
+    border:1px double var(--secondarycolor);
+}
+.heading .contactus{
+    background-color: var(--secondarycolor);
+    color: var(--primarycolor);
+    box-shadow: 5px 2px var(--primarycolor);
 }
