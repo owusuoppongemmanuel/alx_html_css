@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     width: 1000px;
+    overflow: scroll;
 }
 :root{
     --textcolor:black;
@@ -127,4 +128,33 @@ heading .red{
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-small);
 }
-
+.activities i{
+    color: var(--secondarycolor);
+}
+/*Results*/
+.results h3{
+    color: var(--primarycolor);
+    font-size: var(--font-size-x-large);
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+}
+.results p{
+color: var(--primarycolor);
+text-align: center;
+font-weight: var(--font-weight-regular);
+font-size: var(--font-size-small);
+}
+.results .percentage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.results h4{
+    margin-top: -10px;
+}
+.results p{
+    margin-top: -10px;
+    font-size: 1em;
+    font-weight: var(--font-weight-regular);
+}
