@@ -3,8 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    width: 1000px;
-    overflow: scroll;
+
 }
 :root{
     --textcolor:black;
@@ -233,12 +232,12 @@ footer p{
 <600px, <768px, <992px, 1200px
 */
 @media screen and (max-width=600px;) {
-    /*.navbar{
+    /.navbar{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-    }*/
+    }
     /**Menu**/
     .menu{
         display: flex;
